@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tic Tac Toe</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Tic Tac Toe Glow</h1>
+        <div class="game-board">
+            <div id="1" class="cell"></div>
+            <div id="2" class="cell"></div>
+            <div id="3" class="cell"></div>
+            <div id="4" class="cell"></div>
+            <div id="5" class="cell"></div>
+            <div id="6" class="cell"></div>
+            <div id="7" class="cell"></div>
+            <div id="8" class="cell"></div>
+            <div id="9" class="cell"></div>
+        </div>
+        <div class="buttons">
+            <div class="btn vsHuman">Multiplayer</div>
+            <div class="btn vsEasy">Easy AI</div>
+            <div class="btn vsAI">Hard AI</div>
+        </div>
+        <div class="new-game-popup">
+            <p>Do you want to start a new game?</p>
+            <button id="newGameBtn">New Game</button>
+        </div>
+        <div class="text" style="display: none;"><h1 class="result-text">You Win!</h1></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
