@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $(".title").addClass("title-highlight");
+    $(".title").addClass("title-box");
     const GAME_TYPES = {
         TWO_PLAYERS: "TWO_PLAYERS",
         EASY_AI: "EASY_AI",
@@ -46,7 +48,8 @@ $(document).ready(function() {
             }
         }
 
-        $(".info").text(textInfo);
+        console.log("Update Info: ", textInfo);
+    $(".info").addClass("update-info").text(textInfo);
     }
 
     function checkWin(a) {
