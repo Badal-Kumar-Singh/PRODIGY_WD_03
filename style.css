@@ -66,13 +66,13 @@ body {
 
 .cell.cross i {
   color: red;
-  text-shadow: 0 0 10px red, 0 0 20px red;
+  text-shadow: 0 0 15px red;
   font-size: 3em;
 }
 
 .cell.circle i {
   color: white;
-  text-shadow: 0 0 10px white, 0 0 20px white;
+  text-shadow: 0 0 15px white;
   font-size: 3em;
 }
 
@@ -121,8 +121,8 @@ body {
 
 .new-game-popup {
   position: fixed;
-  top: 50.5%;
-  left: 50.5%;
+  top: 55.2%;
+  left: 50.6%;
   transform: translate(-50%, -50%);
   text-align: center;
   background: rgba(255, 255, 255, 0.2);
