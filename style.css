@@ -108,16 +108,16 @@ body {
 
 .new-game-popup {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 50.5%;
+  left: 50.5%;
   transform: translate(-50%, -50%);
   text-align: center;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   padding: 20px 9px 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #0ff;
-  display: none;
+  box-shadow: 10 0 10px rgb(243, 243, 243), 0 0 10px rgb(255, 255, 255);
+  display: none; 
   z-index: 10;
 }
 
@@ -127,7 +127,7 @@ body {
   font-size: 1.2em;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 0 10px #0ff;
   transition: transform 0.3s;
